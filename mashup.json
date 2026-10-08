@@ -1,0 +1,72 @@
+{
+  "id": "sigf/minecraft-football-game-takeover",
+  "version": "1.0.0",
+  "name": "Football Game Takeover",
+  "tagline": "Bring Football Game into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "minecraft",
+      "role": "host",
+      "engine": "Minecraft Java 26.3 + Fabric Loader 0.19.5 + Fabric API (Java 25, Mojang names)",
+      "mc": "26.3",
+      "loader": "fabric@0.19.5"
+    },
+    {
+      "game": "footballgame",
+      "role": "guest",
+      "label": "Football Game"
+    }
+  ],
+  "requires": [
+    {
+      "id": "fabric-loader"
+    }
+  ],
+  "install": [
+    {
+      "game": "minecraft",
+      "strategy": "mrpack",
+      "pack": {
+        "src": "minecraft-football-game-takeover.mrpack",
+        "url": "https://github.com/SIGFAI/minecraft-football-game-takeover/releases/download/v1.0.0/minecraft-football-game-takeover.mrpack",
+        "sha256": "635e1b83e95aa5ef46b6a84c617f3435297e17e2ed8bc399daf24f0678957d62",
+        "size": 81309
+      }
+    }
+  ],
+  "launch": [
+    {
+      "game": "minecraft",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "minecraft-football-game-takeover.mrpack",
+      "url": "https://github.com/SIGFAI/minecraft-football-game-takeover/releases/download/v1.0.0/minecraft-football-game-takeover.mrpack",
+      "sha256": "635e1b83e95aa5ef46b6a84c617f3435297e17e2ed8bc399daf24f0678957d62",
+      "size": 81309
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/minecraft-football-game-takeover",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-08-e9598df9.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "minecraft",
+    "status": "draft"
+  },
+  "built_at": "2026-10-08T09:45:20.315Z",
+  "notes": [
+    "Copy the mod jar into your Fabric mods folder for Minecraft Java 26.3 with Fabric API. Start a world: a stadium builds around you. Right-click the football to throw it at the players or through the goalposts."
+  ]
+}
