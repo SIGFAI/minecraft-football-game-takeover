@@ -1,0 +1,1 @@
+Copy the mod jar into your Fabric mods folder for Minecraft Java 26.3 with Fabric API. Start a world: a stadium builds around you. Right-click the football to throw it at the players or through the goalposts.

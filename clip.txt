@@ -1,0 +1,4 @@
+1. [x] Stadium with stands and goalposts is around the player, red and blue footballers charge in (first 10 s).
+2. [x] Player throws the football: it hits a footballer, who is knocked back with sparks (score goes up).
+3. [x] Field goal: the football flies between the yellow uprights (score +3, streak rises; title is brief and was not caught in a still).
+4. [x] Teams brawl each other and defeated footballers give TOUCHDOWN with fireworks and score (score 18 reached).
